@@ -1,0 +1,38 @@
+#include<stdio.h>
+main()
+{
+	int i,j,p,q,a,b,c,d;
+	for(i=1;i<=5;i++)
+	{
+		for(j=i;j<=5;j++)
+		{
+			printf("%d",j);
+		}
+		printf("\n");
+	}
+	for(p=1;p<=5;p++)
+	{
+		for(q=1;q<=p;q++)
+		{
+			printf("%d",q);
+		}
+		printf("\n");
+	}
+	for(a=1;a<=5;a++)
+	{
+		for(b=a;b<=5;b++)
+		{
+			printf("%d",b);
+		}
+		printf("\n");
+	}
+	for(c=1;c<=5;c++)
+	{
+		for(d=1;d<=c;d++)
+		{
+			printf("%d",d);
+		}
+		printf("\n");
+	}
+	
+}
